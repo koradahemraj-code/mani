@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+    int a,b,sum,sub,mul,div,mod;
+   scanf("%d\n",&a);
+   scanf("%d",&b);
+   sum=a+b;
+   sub=a-b;
+   mul=a*b;
+   div=a/b;
+   mod=a%b; 
+   printf("sum=%d\n",sum);
+   printf("sub=%d\n",sub);
+   printf("mul=%d\n",mul);
+   printf("div=%d\n",div);
+   printf("mod=%d",mod);
+}
